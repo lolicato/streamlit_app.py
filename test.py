@@ -1,2 +1,3 @@
 
-st.file_uploader(label, type=None, accept_multiple_files=False, key=None, help=None, on_change=None, args=None, kwargs=None, *, disabled=False, label_visibility="visible")
+age = st.slider('How old are you?', 0, 130, 25)
+st.write("I'm ", age, 'years old')
